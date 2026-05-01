@@ -34,6 +34,8 @@ This tutorial uses real observational data from NASA's TESS (Transiting Exoplane
 - Prior Polars experience
 - Astronomy knowledge (we explain everything!)
 
+**Estimated completion time:** 30-45 minutes
+
 ## Getting Started
 
 ### 1. Clone (or download) this repository
