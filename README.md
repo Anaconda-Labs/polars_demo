@@ -1,5 +1,7 @@
 # Time Series Analysis with Polars: Exoplanet Transit Detection
 
+Owner: Daina Bouquin (@dbouquin)
+
 A beginner-friendly tutorial that teaches Polars (a modern, fast data manipulation library) by analyzing real NASA space telescope data to detect an exoplanet transit.
 
 ## What You'll Learn
