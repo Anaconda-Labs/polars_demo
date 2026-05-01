@@ -48,22 +48,14 @@ cd polars-timeseries-tutorial
 We recommend using conda to manage your Python environment and dependencies:
 
 ```bash
-# Create a new conda environment named 'polars-tutorial' 
-conda create -n polars-tutorial python=3.13 -y
+# Create the environment from the environment.yml file
+conda env create -f environment.yml
 
 # Activate the environment
 conda activate polars-tutorial
 ```
 
-### 3. Install required packages
-
-Install all necessary packages using conda:
-
-```bash
-conda install -c conda-forge polars pandas numpy matplotlib bokeh pyarrow -y
-```
-
-### 4. Download the data
+### 3. Download the data
 
 The tutorial uses the CSV file in this repository called `wasp18b_lightcurve.csv`, which contains WASP-18 b light curve data. You can use this file or build your own using `fetch_data.py`:
 
@@ -71,7 +63,7 @@ The tutorial uses the CSV file in this repository called `wasp18b_lightcurve.csv
 python fetch_data.py
 ```
 
-### 5. Execute the notebook
+### 4. Execute the notebook
 Open run `polars_timeseries_tutorial.ipynb` using your polars_tutorial environment
 
 
@@ -80,6 +72,7 @@ Open run `polars_timeseries_tutorial.ipynb` using your polars_tutorial environme
 ```
 polars-timeseries-tutorial/
 ├── README.md                          # This file
+├── environment.yml                    # Conda environment specification
 ├── polars_timeseries_tutorial.ipynb   # Main tutorial notebook
 ├── wasp18b_lightcurve.csv             # Light curve data 
 └── fetch_data.py                      # Script to download data (optional)
