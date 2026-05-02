@@ -1,5 +1,8 @@
 # Time Series Analysis with Polars: Exoplanet Transit Detection
 
+[![Status](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Anaconda-Labs/polars_demo/main/.github/badges/status.json?0&cacheSeconds=300)](https://github.com/Anaconda-Labs/polars_demo)
+
+
 Owner: Daina Bouquin (@dbouquin)
 
 A beginner-friendly tutorial that teaches Polars (a modern, fast data manipulation library) by analyzing real NASA space telescope data to detect an exoplanet transit.
