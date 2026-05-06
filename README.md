@@ -1,6 +1,6 @@
 # Time Series Analysis with Polars: Exoplanet Transit Detection
 
-[![Status](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Anaconda-Labs/polars_demo/main/.github/badges/status.json?1777683566&cacheSeconds=300)](https://github.com/Anaconda-Labs/polars_demo)
+[![Status](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Anaconda-Labs/polars_demo/main/.github/badges/status.json?1778104310&cacheSeconds=300)](https://github.com/Anaconda-Labs/polars_demo)
 
 
 Owner: Daina Bouquin (@dbouquin)
